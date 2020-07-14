@@ -1,0 +1,102 @@
+#s1{
+    z-index: -1;
+    background-image: url("5788.jpg");
+    background-attachment: fixed;
+    height: auto;
+    background-size:cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#s2{
+  background-image: url("India-river-boats-city-seagulls_3840x2160.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+#s3{
+  background-image: url("5796.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 300px) {
+    #s1 {
+      background-size: cover;
+    }
+}
+#text::before{
+  content: '';
+  width: 30%;
+  height: 5px;
+  background-color: aqua;
+  position: relative;
+  top: -12px;
+  right: -50%;
+  transform: rotate(-60deg);
+  display: block;
+}
+#text::after{
+  content: '';
+  width: 30%;
+  height: 5px;
+  background-color: aqua;
+  position: relative;
+  left: 15%;
+  top: 16px;
+  transform: rotate(120deg);
+  display: block;
+}
+#text2::before{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: rgb(242, 252, 112);
+  position: relative;
+  top: -12px;
+  right: -50%;
+  transform: rotate(-60deg);
+  display: block;
+}
+#text2::after{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: rgb(242, 252, 112);
+  position: relative;
+  left: 30%;
+  top: 16px;
+  transform: rotate(120deg);
+  display: block;
+}
+#text3::before{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: aqua;
+  position: relative;
+  top: -12px;
+  right: -50%;
+  transform: rotate(-60deg);
+  display: block;
+}
+#text3::after{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: aqua;
+  position: relative;
+  left: 25%;
+  top: 16px;
+  transform: rotate(120deg);
+  display: block;
+}
+#c{
+    display:none;
+}
